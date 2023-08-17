@@ -1,0 +1,175 @@
+@import url(./global.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  min-inline-size: 360px;
+  margin: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--main-font, Arial, sans-serif);
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
+
+.theme_dark {
+  /* --bg-color: #171717;
+  --text-color: #B3B3B3;
+  --accent-color: #B3B3B3; */
+}
+
+.header {
+  padding-top: 9rem;
+}
+
+.heading {
+  display: block;
+  text-align: center;
+  font-family: var(--accent-font, Arial, sans-serif);
+  font-style: normal;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 90%; /* 6.75rem */
+  margin-bottom: 2rem;
+}
+
+.heading_main {
+  font-size: 7.5rem;
+}
+
+.header__down {
+  inline-size: 100%;
+  padding: 1.25rem 0;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  inline-size: 8.4375rem;
+  block-size: 1.9375rem;
+}
+
+.header__logo-img {
+  block-size: 100%;
+  inline-size: 100%;
+  object-fit: cover;
+  object-position: center;
+  color: #000;
+}
+
+.header__theme-toggle {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.header__theme-dark {
+}
+
+.header__theme-light {
+}
+
+.content {
+}
+
+.content-section {
+  padding-left: 5vi;
+  padding-right: 5vi;
+}
+
+.section {
+  margin-top: 5.69rem;
+}
+
+.content__text {
+  margin-top: 2rem;
+}
+
+.accent-letter {
+}
+
+.content__main-img {
+  padding: initial;
+  inline-size: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content__main-image-name {
+  padding: 1.25rem 0;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.content__quote {
+  inline-size: 70%;
+  line-height: 200%;
+  margin: 1.69rem auto;
+}
+
+.content__link {
+}
+
+.content__card {
+  border: 1px solid var(--text-color);
+  block-size: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__card-name {
+  display: block;
+  text-align: center;
+  font-size: 3.75rem;
+  font-family: var(--accent-font, Arial, sans-serif);
+  line-height: 100%;
+}
+
+.content__card-translate {
+  display: block;
+  text-align: center;
+}
+
+.footer {
+}
+
+.footer__links {
+  margin-top: 2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.63rem;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.footer__logo {
+  inline-size: 100%;
+  padding: 2.25rem 0;
+  border-top: 1px solid currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
