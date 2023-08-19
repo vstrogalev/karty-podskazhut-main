@@ -8,3 +8,4 @@
 HTML, CSS
 
 #Link to github repo
+https://github.com/vstrogalev/karty-podskazhut-main
